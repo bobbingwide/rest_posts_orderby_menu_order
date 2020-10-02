@@ -7,7 +7,7 @@ Description: Workaround for Gutenberg issue #12795 PR #23647
 Version: 0.0.1
 Author: bobbingwide
 Author URI: https://bobbingwide.com/about-bobbing-wide
-Text domain: rest-posts-orderby
+Text domain: rest-posts-orderby-menu-order
 Domain Path: /languages/
 License: GPL2v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
