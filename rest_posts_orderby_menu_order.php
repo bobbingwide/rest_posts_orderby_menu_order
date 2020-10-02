@@ -1,8 +1,8 @@
 <?php
 /**
-Plugin Name: REST posts orderby
+Plugin Name: REST posts orderby menu order
 Depends:
-Plugin URI: https://www.oik-plugins.com/oik-plugins/rest_posts_orderby
+Plugin URI: https://www.oik-plugins.com/oik-plugins/rest_posts_orderby_menu_order
 Description: Workaround for Gutenberg issue #12795 PR #23647
 Version: 0.0.1
 Author: bobbingwide
@@ -39,7 +39,7 @@ http://www.gnu.org/licenses/gpl-2.0.html
  * @param string   $orderby Current orderby value.
  * @param WP_Query $query Query object.
  */
-function rest_posts_orderby( $orderby, $query ) {
+function rest_posts_orderby_menu_order( $orderby, $query ) {
     global $wpdb;
     if ( defined( 'REST_REQUEST' ) && REST_REQUEST ) {
         if ( 'menu_order' === $query->query['orderby'] ) {
@@ -48,6 +48,6 @@ function rest_posts_orderby( $orderby, $query ) {
     }
     return $orderby;
 }
-add_filter( 'posts_orderby', 'rest_posts_orderby', 10, 2 );
+add_filter( 'posts_orderby', 'rest_posts_orderby_menu_order', 10, 2 );
 
 
