@@ -1,5 +1,5 @@
 # REST posts orderby menu order 
-![banner](https://raw.githubusercontent.com/bobbingwide/rest_posts_orderby_menu_order/master/assets/rest_posts_orderby_menu_order-banner-772x250.jpg)
+![banner](https://raw.githubusercontent.com/bobbingwide/rest_posts_orderby_menu_order/main/assets/rest_posts_orderby_menu_order-banner-772x250.jpg)
 * Contributors:      bobbingwide
 * Tags:              REST, orderby, menu_order, Gutenberg
 * Requires at least: 5.5.1
